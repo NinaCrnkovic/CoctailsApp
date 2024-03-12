@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">CoctailsApp</string>
     <string name="welcome_to_coctails">Welcome to Coctails</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="items">Items</string>
+    <string name="about">About</string>
+    <string name="loading">Loading...</string>
+    <string name="exit">Exit</string>
+    <string name="exit_the_application">Exit the application?</string>
 </resources>

@@ -48,4 +48,15 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+    // preferences
+    implementation("androidx.preference:preference-ktx:1.2.1")
+    // worker
+    implementation("androidx.work:work-runtime-ktx:2.8.1")
+
+    // navigation
+    implementation("androidx.navigation:navigation-fragment-ktx:2.6.0")
+    implementation("androidx.navigation:navigation-ui-ktx:2.6.0")
+
+
 }

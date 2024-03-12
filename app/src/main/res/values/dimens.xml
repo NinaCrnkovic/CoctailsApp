@@ -7,4 +7,6 @@
     <dimen name="_50dp">50dp</dimen>
     <dimen name="_500dp">500dp</dimen>
     <dimen name="_450dp">450dp</dimen>
+    <dimen name="_0dp">0dp</dimen>
+    <dimen name="_600dp">600</dimen>
 </resources>

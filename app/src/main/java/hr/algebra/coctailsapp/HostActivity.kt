@@ -19,6 +19,7 @@ class HostActivity : AppCompatActivity() {
             android.R.anim.fade_out
         )
         binding = ActivityHostBinding.inflate(layoutInflater)
+
         setContentView(binding.root)
 
         initHamburgerMenu()

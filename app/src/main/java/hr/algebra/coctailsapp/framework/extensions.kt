@@ -25,7 +25,6 @@ inline fun <reified T : Activity> Context.startActivity() =
             addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         })
 
-
 inline fun <reified T : BroadcastReceiver> Context.sendBroadcast() =
     sendBroadcast(Intent(this, T::class.java))
 

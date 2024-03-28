@@ -1,5 +1,6 @@
 package hr.algebra.coctailsapp
 
+import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
@@ -15,13 +16,14 @@ import hr.algebra.coctailsapp.framework.getBooleanPreference
 import hr.algebra.coctailsapp.framework.isOnline
 import hr.algebra.coctailsapp.framework.startActivity
 
-private const val DELAY = 3000L
+private const val DELAY = 5000L
 
 const val DATA_IMPORTED = "hr.algebra.coctailsapp.data_imported"
 
 
 class SplashScreenActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySplashScreenBinding
+    private lateinit var mediaPlayer: MediaPlayer
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySplashScreenBinding.inflate(layoutInflater)
@@ -29,7 +31,18 @@ class SplashScreenActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         startAnimations()
+        mediaPlayer = MediaPlayer.create(this, R.raw.music)
+        mediaPlayer.isLooping = true
+        mediaPlayer.start()
         redirect()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        if (mediaPlayer.isPlaying) {
+            mediaPlayer.stop()
+        }
+        mediaPlayer.release()
     }
 
     private fun startAnimations() {

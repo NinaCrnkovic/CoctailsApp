@@ -8,5 +8,9 @@
     <dimen name="_500dp">500dp</dimen>
     <dimen name="_450dp">450dp</dimen>
     <dimen name="_0dp">0dp</dimen>
-    <dimen name="_600dp">600</dimen>
+    <dimen name="_600dp">600dp</dimen>
+    <dimen name="_9dp">9dp</dimen>
+    <dimen name="_10dp">10dp</dimen>
+    <dimen name="_5dp">5dp</dimen>
+    <dimen name="_300dp">300dp</dimen>
 </resources>

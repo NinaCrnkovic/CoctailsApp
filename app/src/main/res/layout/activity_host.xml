@@ -22,6 +22,6 @@
         app:menu="@menu/navigation_menu"
         app:itemTextColor="@drawable/navigation_text_color"
         android:layout_width="162dp"
-        android:layout_height="240dp"/>
+        android:layout_height="340dp"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>

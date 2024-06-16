@@ -11,5 +11,13 @@
         android:id="@+id/menuAbout"
         android:name="hr.algebra.coctailsapp.fragment.AboutFragment"
         android:label="@string/about"/>
+    <fragment
+        android:id="@+id/menuQuiz"
+        android:name="hr.algebra.coctailsapp.fragment.QuizFragment"
+        android:label="Quiz"/>
 
+    <fragment
+        android:id="@+id/menuContactUs"
+        android:name="hr.algebra.coctailsapp.fragment.ContactUsFragment"
+        android:label="@string/contact_us"/>
 </navigation>

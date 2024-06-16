@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -67,6 +68,11 @@ dependencies {
     // picasso
     implementation("com.squareup.picasso:picasso:2.8")
     implementation("jp.wasabeef:picasso-transformations:2.4.0")
+
+    //firebase
+    implementation (platform("com.google.firebase:firebase-bom:32.1.1"))
+    implementation ("com.google.firebase:firebase-auth-ktx")
+    implementation ("com.google.android.gms:play-services-auth:20.5.0")
 
 
 }

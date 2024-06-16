@@ -10,4 +10,7 @@
     <string name="exit_the_application">Exit the application?</string>
     <string name="no_internet">No internet</string>
     <string name="no_internet1">No internet...</string>
+    <string name="quiz">Quiz</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="cocktails">Cocktails</string>
 </resources>

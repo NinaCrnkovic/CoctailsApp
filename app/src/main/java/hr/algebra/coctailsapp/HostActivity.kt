@@ -8,6 +8,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.core.view.GravityCompat
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
+import com.google.firebase.auth.FirebaseAuth
 import hr.algebra.coctailsapp.databinding.ActivityHostBinding
 
 class HostActivity : AppCompatActivity() {
@@ -50,6 +51,7 @@ class HostActivity : AppCompatActivity() {
             }
             R.id.menuExit ->{
                 exitApp()
+                FirebaseAuth.getInstance().signOut()
                 return true
             }
         }

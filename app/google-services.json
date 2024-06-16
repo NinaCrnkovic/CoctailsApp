@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "227615658676",
+    "project_id": "coctails-165f2",
+    "storage_bucket": "coctails-165f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227615658676:android:23b5c24fb02fdc38707de1",
+        "android_client_info": {
+          "package_name": "hr.algebra.coctailsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtpTEd8phwRGfVg42cVPSfPvdKCkIhHAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -23,7 +23,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Email: cocktail.empire@gmail.com"
+        android:text="Email: thecoctailcorner@gmail.com"
         android:layout_marginTop="8dp"/>
 
     <TextView
@@ -31,4 +31,12 @@
         android:layout_height="wrap_content"
         android:text="Address: Zlatarska 16, Zagreb, Hrvatska"
         android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/button_send_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Email"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"/>
 </LinearLayout>
